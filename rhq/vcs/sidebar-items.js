@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Vcs",""]],"fn":[["clone_from_query","Perform to clone repository into local path."],["detect_from_path",""],["detect_from_remote",""]],"mod":[["git",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Query","Represents query from user."]]});

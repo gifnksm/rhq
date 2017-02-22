@@ -1,0 +1,21 @@
+(function() {var implementors = {};
+implementors["clap"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>StdError</a> for <a class='struct' href='clap/struct.Error.html' title='clap::Error'>Error</a>",];
+implementors["error_chain"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='error_chain/example_generated/inner/struct.Error.html' title='error_chain::example_generated::inner::Error'>Error</a>","impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='error_chain/example_generated/struct.Error.html' title='error_chain::example_generated::Error'>Error</a>",];
+implementors["libc"] = [];
+implementors["log"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='log/struct.SetLoggerError.html' title='log::SetLoggerError'>SetLoggerError</a>","impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='log/struct.ShutdownLoggerError.html' title='log::ShutdownLoggerError'>ShutdownLoggerError</a>",];
+implementors["regex"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='enum' href='regex/enum.Error.html' title='regex::Error'>Error</a>",];
+implementors["regex_syntax"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='regex_syntax/struct.Error.html' title='regex_syntax::Error'>Error</a>",];
+implementors["rhq"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='rhq/errors/struct.Error.html' title='rhq::errors::Error'>Error</a>",];
+implementors["serde"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='serde/de/value/struct.Error.html' title='serde::de::value::Error'>Error</a>",];
+implementors["shellexpand"] = ["impl&lt;E:&nbsp;<a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a>&gt; <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='shellexpand/struct.LookupError.html' title='shellexpand::LookupError'>LookupError</a>&lt;E&gt;",];
+implementors["toml"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='toml/value/struct.DatetimeParseError.html' title='toml::value::DatetimeParseError'>DatetimeParseError</a>","impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='enum' href='toml/ser/enum.Error.html' title='toml::ser::Error'>Error</a>","impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='toml/de/struct.Error.html' title='toml::de::Error'>Error</a>",];
+implementors["url"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='enum' href='url/enum.ParseError.html' title='url::ParseError'>ParseError</a>",];
+implementors["walkdir"] = ["impl <a class='trait' href='https://doc.rust-lang.org/nightly/std/error/trait.Error.html' title='std::error::Error'>Error</a> for <a class='struct' href='walkdir/struct.Error.html' title='walkdir::Error'>Error</a>",];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
