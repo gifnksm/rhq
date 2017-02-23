@@ -4,6 +4,7 @@ use std::io::BufRead;
 
 use clap::{self, Arg, SubCommand};
 use shlex;
+use threadpool::ThreadPool;
 
 use config::{self, Config};
 use errors::Result;
@@ -34,10 +35,10 @@ impl App {
   }
 
   pub fn iter_repos<F>(&self, func: F) -> Result<()>
-    where F: Fn(&Repository) -> Result<()>
+    where F: Fn(Repository) -> Result<()>
   {
     for root in self.config.roots() {
-      for ref repo in repository::collect_from(root) {
+      for repo in repository::collect_from(root) {
         func(repo)?;
       }
     }
@@ -92,7 +93,7 @@ pub fn run() -> Result<()> {
       Ok(())
     }
     ("list", _) => {
-      app.iter_repos(|ref repo| {
+      app.iter_repos(|repo| {
         println!("{}", repo.path_string());
         Ok(())
       })

@@ -6,6 +6,7 @@ extern crate regex;
 extern crate shellexpand;
 extern crate shlex;
 extern crate toml;
+extern crate threadpool;
 extern crate url;
 extern crate walkdir;
 #[macro_use]
